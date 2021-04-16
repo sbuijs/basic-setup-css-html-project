@@ -1,23 +1,25 @@
 // File: main.scss
 
 // abstracts
+@import "styles/scss/abstracts/fonts";
+@import "styles/scss/abstracts/mixins";
+@import "styles/scss/abstracts/variables";
 
 // base
 @import "styles/scss/base/reset";
-@import "styles/scss/base/colors";
+@import "styles/scss/base/color";
 @import "styles/scss/base/typography";
-
-// layout
-@import "styles/scss/layout/footer";
-@import "styles/scss/layout/forms";
-@import "styles/scss/layout/grid";
-@import "styles/scss/layout/header";
-@import "styles/scss/layout/navigation";
-@import "styles/scss/layout/sidebar";
 
 // components / modules
 @import "styles/scss/components/buttons";
-@import "styles/scss/components/hero";
+@import "styles/scss/components/input";
+@import "styles/scss/components/modal";
+
+// layout
+@import "styles/scss/layout/footer";
+@import "styles/scss/layout/form";
+@import "styles/scss/layout/grid";
+@import "styles/scss/layout/main-navigation";
 
 // pages
 @import "styles/scss/pages/home";
